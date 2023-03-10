@@ -1,0 +1,7 @@
+=>Check TimeZone
+timedatectl
+=>Change TimeZone
+sudo timedatectl set-timezone Asia/Dhaka
+=>Check Hostname
+hostname
+=>Change Hostname
