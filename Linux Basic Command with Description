@@ -1,7 +1,59 @@
 =>Check TimeZone
 timedatectl
+
 =>Change TimeZone
 sudo timedatectl set-timezone Asia/Dhaka
+
 =>Check Hostname
 hostname
+
 =>Change Hostname
+sudo hostname NewHostName 
+OR
+sudo hostnamectl set-hostname NewHostName
+OR
+sudo nano /etc/hostname 
+after that write new hostname and save it , then write command
+sudo nano /etc/hosts 
+thne reboot server using ( sudo reboot) this command
+
+=>Update All Packeg 
+sudo apt-get update
+
+=>clear screen
+ctrl+L
+
+=>current directory check
+pwd
+
+=>All of the contet/file list show with including hidden file
+ls -al
+
+=>All of hidden content/file check
+ls -a
+
+=> Make new directory
+mkdir DirectoryName
+or sudo mkdir DirectoryName (if permission denied)
+
+=>Change Directory
+cd directoryName
+cd ~ (move to parent folder)
+cd.. (back to previous directory)
+
+=>Create File command
+touch fileName 
+then check using (ls command)
+
+=>Open editor for write something's 
+sudo nano editor
+After that write something and save it
+
+=>file content check
+cat fileName
+or sudo cat FileName (if permission denied )
+
+=> Remove file
+rm FileName 
+and check ls command, It will be removed 
+
