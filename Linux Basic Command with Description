@@ -57,3 +57,7 @@ or sudo cat FileName (if permission denied )
 rm FileName 
 and check ls command, It will be removed 
 
+=> Move file 
+mv fileNme DirectoryName
+
+
